@@ -1,3 +1,113 @@
 body {
-    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
 }
+
+.wrapper {
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.main-pages {
+    display: flex;
+    flex-direction: row;
+}
+
+/* aside */
+.aside {
+    /* background-color: #1e2939; */
+    width: 370px;
+    text-align: left;
+    background: rgb(30, 41, 57);
+    background: linear-gradient(90deg, rgba(30, 41, 57, 1) 24%, rgba(29, 58, 99, 1) 100%);
+}
+
+.photo {
+    width: 370px;
+    height: 370px;
+    padding-top: 40px;
+}
+
+.main-container {
+    padding-left: 40px;
+}
+
+.main-container-heading {
+    color: #ffffff;
+    line-height: 24px;
+    padding-top: 40px;
+}
+
+.contacts {
+    color: #ffffff;
+    padding-left: 10px;
+    opacity: 0.5;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.li {
+    color: #ff6b08;
+}
+
+.li-span {
+    color: #ffffff;
+}
+
+/* about me container */
+
+.about-me-container {
+    padding: 100px;
+    padding-left: 90px;
+    padding-right: 195px;
+    padding-bottom: 100px;
+}
+
+/* .my-element {
+    color: red;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacts-container {
+    background-color: teal;
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.tech-skills-container {
+    background-color: turquoise;
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.soft-skills-container {
+    background-color: yellowgreen;
+    width: 400px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.tech-skills-title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.tech-skills-item {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+} */

@@ -1,142 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My resume</title>
-</head>
+  <body>
+    <div class="wrapper">
+      <!-- main container -->
+      <div class="main-pages">
+        <aside class="aside">
+          <img
+            class="photo"
+            src="./img/photo_2019-11-29_15-21-45.svg"
+            alt="My photo"
+          />
 
-<body>
-  <!-- main container -->
-  <div>
-    <aside>
-      <img src="./img/photo_2019-11-29_15-21-45.svg" alt="My photo">
+          <div class="main-container">
+            <!-- contacts container -->
+            <div class="main-container-heading">
+              <h2>Contacts</h2>
+              <div>
+                C:
+                <a class="contacts" href="tel:380951138598"
+                  >+38 095 113 85 98</a
+                >
+              </div>
+              <div>
+                E:
+                <a class="contacts" href="mailto:chornyiav@gmail.com"
+                  >chornyiav@gmail.com</a
+                >
+              </div>
+            </div>
 
-      <!-- contacts container -->
-      <div>
-        <h2>Contacts</h2>
-        <div>
-          C: <a href="tel:380951138598">+38 095 113 85 98</a>
+            <!-- tech skills container -->
+            <div class="main-container-heading">
+              <h2>Tech Skills</h2>
+              <ul class="li">
+                <li><span class="li-span">HTML5</span></li>
+                <li><span class="li-span">CSS3</span></li>
+                <li><span class="li-span">GIT</span></li>
+                <li><span class="li-span">WebPack</span></li>
+                <li><span class="li-span">JavaScript</span></li>
+                <li><span class="li-span">React.js</span></li>
+                <li><span class="li-span">Node.js</span></li>
+              </ul>
+            </div>
+
+            <!-- soft skills container -->
+            <div class="main-container-heading">
+              <h2>Soft Skills</h2>
+              <ul class="li">
+                <li><span class="li-span">Scrum</span></li>
+                <li><span class="li-span">Agile</span></li>
+                <li><span class="li-span">GTD</span></li>
+                <li><span class="li-span">Teamwork</span></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <!-- about me container -->
+        <div class="about-me-container">
+          <!-- about me main info -->
+          <div>
+            <h4>Front-End Developer</h4>
+            <h1>Andrii Kulbachyi</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+              accumsan lacus vel facilisis.
+            </p>
+          </div>
+
+          <!-- projects container -->
+          <div>
+            <h2>Projects</h2>
+            <ol>
+              <li>
+                <a href="https://lovecamp.allinsol.com/"
+                  >https://lovecamp.allinsol.com/</a
+                >
+                <span>............................</span>
+                <span>[ HTML5, CSS3 ]</span>
+              </li>
+              <li>
+                <a href="https://cryptohub.goit.ua/"
+                  >https://cryptohub.goit.ua/</a
+                >
+                <span>....................................</span>
+                <span>[ JavaScript ]</span>
+              </li>
+              <li>
+                <a href="https://kidslike.goit.co.ua/"
+                  >https://kidslike.goit.co.ua/</a
+                >
+                <span>...................................</span>
+                <span>[ React.js, Node.js ]</span>
+              </li>
+            </ol>
+          </div>
+
+          <!-- work experience container -->
+          <div>
+            <h2>Work Experience</h2>
+
+            <!-- company 1 -->
+            <div>
+              <h3>Front-End Developer Freelance</h3>
+              <span>September 2019 - up to now | Ukraine</span>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>Risus commodo viverra maecenas.</li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
+                </li>
+              </ul>
+            </div>
+
+            <!-- company 2 -->
+            <div>
+              <h3>Manager Roga & Kopyta New</h3>
+              <span>March 2015 - October 2018 | Ukraine</span>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod labore et dolore magna aliqua.
+                </li>
+                <li>Quis ipsum suspendisse ultrices gravida.</li>
+                <li>Risus commodo viverra maecenas.</li>
+              </ul>
+            </div>
+
+            <!-- company 3 -->
+            <div>
+              <h3>Manager Roga & Kopyta LLC</h3>
+              <span>June 2014 - February 2015 | Ukraine</span>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>Quis ipsum suspendisse ultrices gravida.</li>
+                <li>Risus commodo viverra maecenas.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- education -->
+          <div>
+            <h2>Education</h2>
+            <h3>Kharkiv National University of Radioelectronics</h3>
+            <h4>Management</h4>
+            <span>Septermber 2009 - June 2014 | Ukraine</span>
+          </div>
         </div>
-        <div>
-          E: <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
-        </div>
       </div>
-
-      <!-- tech skills container -->
-      <div>
-        <h2>Tech Skills</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>GIT</li>
-          <li>WebPack</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Node.js</li>
-        </ul>
-      </div>
-
-      <!-- soft skills container -->
-      <div>
-        <h2>Soft Skills</h2>
-        <ul>
-          <li>Scrum</li>
-          <li>Agile</li>
-          <li>GTD</li>
-          <li>Teamwork</li>
-        </ul>
-      </div>
-
-    </aside>
-    <!-- about me container -->
-    <div>
-
-      <!-- about me main info -->
-      <div>
-        <h4>Front-End Developer</h4>
-        <h1>Andrii Kulbachyi</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-          facilisis.
-        </p>
-      </div>
-
-      <!-- projects container -->
-      <div>
-        <h2>Projects</h2>
-        <ol>
-          <li>
-            <a href="https://lovecamp.allinsol.com/">https://lovecamp.allinsol.com/</a>
-            <span>............................</span>
-            <span>[ HTML5, CSS3 ]</span>
-          </li>
-          <li>
-            <a href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
-            <span>....................................</span>
-            <span>[ JavaScript ]</span>
-          </li>
-          <li>
-            <a href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
-            <span>...................................</span>
-            <span>[ React.js, Node.js ]</span>
-          </li>
-        </ol>
-      </div>
-
-      <!-- work experience container -->
-      <div>
-        <h2>Work Experience</h2>
-
-        <!-- company 1 -->
-        <div>
-          <h3>Front-End Developer Freelance</h3>
-          <span>September 2019 - up to now | Ukraine</span>
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Risus commodo viverra maecenas.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-          </ul>
-        </div>
-
-        <!-- company 2 -->
-        <div>
-          <h3>Manager Roga & Kopyta New</h3>
-          <span>March 2015 - October 2018 | Ukraine</span>
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.
-            </li>
-            <li>Quis ipsum suspendisse ultrices gravida.</li>
-            <li>Risus commodo viverra maecenas.</li>
-          </ul>
-        </div>
-
-        <!-- company 3 -->
-        <div>
-          <h3>Manager Roga & Kopyta LLC</h3>
-          <span>June 2014 - February 2015 | Ukraine</span>
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Quis ipsum suspendisse ultrices gravida.</li>
-            <li>Risus commodo viverra maecenas.</li>
-          </ul>
-        </div>
-
-      </div>
-
-      <!-- education -->
-      <div>
-        <h2>Education</h2>
-        <h3>Kharkiv National University of Radioelectronics</h3>
-        <h4>Management</h4>
-        <span>Septermber 2009 - June 2014 | Ukraine</span>
-      </div>
-
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
