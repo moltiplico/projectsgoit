@@ -12,162 +12,206 @@
   </head>
 
   <body>
+    <!-- main container -->
     <div class="wrapper">
-      <!-- main container -->
-      <div class="main-pages">
-        <aside class="aside">
-          <img
-            class="photo"
-            src="./img/photo_2019-11-29_15-21-45.svg"
-            alt="My photo"
-          />
+      <aside class="sidebar">
+        <img
+          class="my-photo"
+          src="./img/photo_2019-11-29_15-21-45.svg"
+          alt="My photo"
+        />
 
-          <div class="main-container">
-            <!-- contacts container -->
-            <div class="main-container-heading">
-              <h2>Contacts</h2>
-              <div>
-                C:
-                <a class="contacts" href="tel:380951138598"
-                  >+38 095 113 85 98</a
-                >
-              </div>
-              <div>
-                E:
-                <a class="contacts" href="mailto:chornyiav@gmail.com"
-                  >chornyiav@gmail.com</a
-                >
-              </div>
+        <div>
+          <!-- contacts container -->
+          <div class="main-container-heading">
+            <h3>Contacts</h3>
+            <div class="contacts-container">
+              <span class="contacts-title">C:</span>
+              <a class="contacts-link" href="tel:380951138598"
+                >+38 095 113 85 98</a
+              >
             </div>
-
-            <!-- tech skills container -->
-            <div class="main-container-heading">
-              <h2>Tech Skills</h2>
-              <ul class="li">
-                <li><span class="li-span">HTML5</span></li>
-                <li><span class="li-span">CSS3</span></li>
-                <li><span class="li-span">GIT</span></li>
-                <li><span class="li-span">WebPack</span></li>
-                <li><span class="li-span">JavaScript</span></li>
-                <li><span class="li-span">React.js</span></li>
-                <li><span class="li-span">Node.js</span></li>
-              </ul>
-            </div>
-
-            <!-- soft skills container -->
-            <div class="main-container-heading">
-              <h2>Soft Skills</h2>
-              <ul class="li">
-                <li><span class="li-span">Scrum</span></li>
-                <li><span class="li-span">Agile</span></li>
-                <li><span class="li-span">GTD</span></li>
-                <li><span class="li-span">Teamwork</span></li>
-              </ul>
+            <div>
+              <span class="contacts-title">E:</span>
+              <a class="contacts-link" href="mailto:chornyiav@gmail.com"
+                >chornyiav@gmail.com</a
+              >
             </div>
           </div>
-        </aside>
 
-        <!-- about me container -->
-        <div class="about-me-container">
-          <!-- about me main info -->
+          <!-- tech skills container -->
+          <div class="main-container-heading">
+            <h3>Tech Skills</h3>
+            <ul class="li-sidebar">
+              <li><span class="li-sidebar-span">HTML5</span></li>
+              <li><span class="li-sidebar-span">CSS3</span></li>
+              <li><span class="li-sidebar-span">GIT</span></li>
+              <li><span class="li-sidebar-span">WebPack</span></li>
+              <li><span class="li-sidebar-span">JavaScript</span></li>
+              <li><span class="li-sidebar-span">React.js</span></li>
+              <li><span class="li-sidebar-span">Node.js</span></li>
+            </ul>
+          </div>
+
+          <!-- soft skills container -->
+          <div class="main-container-heading">
+            <h3>Soft Skills</h3>
+            <ul class="li-sidebar">
+              <li><span class="li-sidebar-span">Scrum</span></li>
+              <li><span class="li-sidebar-span">Agile</span></li>
+              <li><span class="li-sidebar-span">GTD</span></li>
+              <li><span class="li-sidebar-span">Teamwork</span></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!-- about me container -->
+      <div class="about-me-container">
+        <!-- about me main info -->
+        <div>
+          <h4>Front-End Developer</h4>
+          <h1 class="name">Andrii Kulbachyi</h1>
+          <p class="about-me">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+        </div>
+
+        <!-- projects container -->
+        <div>
+          <h2 class="projects">Projects</h2>
+          <ol class="projects-list">
+            <li>
+              <a
+                class="projects-list-normal"
+                href="https://lovecamp.allinsol.com/"
+                >https://lovecamp.allinsol.com/</a
+              >
+              <span class="projects-list-normal"
+                >...........................................</span
+              >
+              <span
+                >[ <span class="projects-list-normal">HTML5, CSS3</span> ]</span
+              >
+            </li>
+            <li>
+              <a class="projects-list-normal" href="https://cryptohub.goit.ua/"
+                >https://cryptohub.goit.ua/</a
+              >
+              <span class="projects-list-normal"
+                >.....................................................</span
+              >
+              <span
+                >[ <span class="projects-list-normal">JavaScript</span> ]</span
+              >
+            </li>
+            <li>
+              <a
+                class="projects-list-normal"
+                href="https://kidslike.goit.co.ua/"
+                >https://kidslike.goit.co.ua/</a
+              >
+              <span class="projects-list-normal"
+                >.....................................................</span
+              >
+              <span
+                >[
+                <span class="projects-list-normal">React.js, Node.js</span>
+                ]</span
+              >
+            </li>
+          </ol>
+        </div>
+
+        <!-- work experience container -->
+        <div>
+          <h2 class="work-experience">Work Experience</h2>
+
+          <!-- company 1 -->
           <div>
-            <h4>Front-End Developer</h4>
-            <h1>Andrii Kulbachyi</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.
+            <h3 class="company">
+              Front-End Developer <span class="company-span">Freelance</span>
+            </h3>
+            <p class="date">
+              <span
+                >September 2019 - up to now
+                <span class="line"></span> Ukraine</span
+              >
             </p>
-          </div>
-
-          <!-- projects container -->
-          <div>
-            <h2>Projects</h2>
-            <ol>
+            <ul class="text">
               <li>
-                <a href="https://lovecamp.allinsol.com/"
-                  >https://lovecamp.allinsol.com/</a
-                >
-                <span>............................</span>
-                <span>[ HTML5, CSS3 ]</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </li>
               <li>
-                <a href="https://cryptohub.goit.ua/"
-                  >https://cryptohub.goit.ua/</a
-                >
-                <span>....................................</span>
-                <span>[ JavaScript ]</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
+              <li>Risus commodo viverra maecenas.</li>
               <li>
-                <a href="https://kidslike.goit.co.ua/"
-                  >https://kidslike.goit.co.ua/</a
-                >
-                <span>...................................</span>
-                <span>[ React.js, Node.js ]</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
               </li>
-            </ol>
+            </ul>
           </div>
 
-          <!-- work experience container -->
+          <!-- company 2 -->
           <div>
-            <h2>Work Experience</h2>
-
-            <!-- company 1 -->
-            <div>
-              <h3>Front-End Developer Freelance</h3>
-              <span>September 2019 - up to now | Ukraine</span>
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>Risus commodo viverra maecenas.</li>
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
-                </li>
-              </ul>
-            </div>
-
-            <!-- company 2 -->
-            <div>
-              <h3>Manager Roga & Kopyta New</h3>
-              <span>March 2015 - October 2018 | Ukraine</span>
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod labore et dolore magna aliqua.
-                </li>
-                <li>Quis ipsum suspendisse ultrices gravida.</li>
-                <li>Risus commodo viverra maecenas.</li>
-              </ul>
-            </div>
-
-            <!-- company 3 -->
-            <div>
-              <h3>Manager Roga & Kopyta LLC</h3>
-              <span>June 2014 - February 2015 | Ukraine</span>
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>Quis ipsum suspendisse ultrices gravida.</li>
-                <li>Risus commodo viverra maecenas.</li>
-              </ul>
-            </div>
+            <h3 class="company">
+              Manager <span class="company-span">Roga & Kopyta New</span>
+            </h3>
+            <p class="date">
+              <span
+                >March 2015 - October 2018
+                <span class="line"></span> Ukraine</span
+              >
+            </p>
+            <ul class="text">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
           </div>
 
-          <!-- education -->
+          <!-- company 3 -->
           <div>
-            <h2>Education</h2>
-            <h3>Kharkiv National University of Radioelectronics</h3>
-            <h4>Management</h4>
-            <span>Septermber 2009 - June 2014 | Ukraine</span>
+            <h3 class="company">
+              Manager <span class="company-span">Roga & Kopyta LLC</span>
+            </h3>
+            <p class="date">
+              <span
+                >June 2014 - February 2015
+                <span class="line"></span> Ukraine</span
+              >
+            </p>
+            <ul class="text">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
           </div>
+        </div>
+
+        <!-- education -->
+        <div>
+          <h2 class="work-experience">Education</h2>
+          <h3 class="university">
+            Kharkiv National University of Radioelectronics
+          </h3>
+          <h4>Management</h4>
+          <p class="date">
+            <span
+              >Septermber 2009 - June 2014
+              <span class="line"></span> Ukraine</span
+            >
+          </p>
         </div>
       </div>
     </div>
