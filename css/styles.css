@@ -1,3 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #fff;
+    background-color: #f5f7fa;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    background-color: #ffffff;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* sidebar */
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding: 40px 40px 110px 40px;
+}
+
+.my-photo {
+    width: 370px;
+    margin: 0 0 0 -40px;
+}
+
+.main-container-heading {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 24px;
+    padding-top: 60px;
+}
+
+.contacts-container {
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.contacts-link {
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 10px;
+    opacity: 0.5;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.li-sidebar {
+    color: #ff6b08;
+    margin: 20px 0 0 20px;
+    font-size: 14px;
+}
+
+.li-sidebar-span {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+/* about me container */
+
+.about-me-container {
+    padding: 110px 190px 110px 90px;
+}
+
+.name {
+    margin: 24px 0 24px 0;
+}
+
+.about-me {
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projects {
+    margin: 60px 0 12px 0;
+    font-size: 22px;
+}
+
+/* dotted */
+hr {
+    color: #a8a8a8;
+    font-weight: 100;
+    padding: 9px;
+    margin: 5px 5px 0;
+    /* боковые margin-ы по _px */
+    border: none;
+    border-bottom: 1px dotted #a8a8a8;
+}
+
+/* //dotted */
+
+.projects-list {
+    width: 450px;
+    margin-left: 15px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.projects-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    float: left;
+    margin-right: 1px;
+}
+
+.projects-technologies {
+    float: right;
+    margin-left: 3px;
+}
+
+.projects-list-normal {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.work-experience {
+    margin: 52px 0 18px 0;
+    font-size: 22px;
+}
+
+.profession-title {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.company {
+    color: #ff6b08;
+}
+
+.date {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.line {
+    border-left: 1px solid #000000;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.text {
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.university {
+    color: #ff6b08;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.profession {
+    font-size: 14px;
 }
