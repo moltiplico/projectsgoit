@@ -11,10 +11,10 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     background-color: #ffffff;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -92,12 +92,41 @@ body {
     font-size: 22px;
 }
 
+/* dotted */
+hr {
+    color: #a8a8a8;
+    font-weight: 100;
+    padding: 9px;
+    margin: 5px 5px 0;
+    /* боковые margin-ы по _px */
+    border: none;
+    border-bottom: 1px dotted #a8a8a8;
+}
+
+/* //dotted */
+
 .projects-list {
+    width: 450px;
     margin-left: 15px;
     color: #000000;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
+}
+
+.projects-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    float: left;
+    margin-right: 1px;
+}
+
+.projects-technologies {
+    float: right;
+    margin-left: 3px;
 }
 
 .projects-list-normal {
