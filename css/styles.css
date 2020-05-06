@@ -28,7 +28,7 @@ body {
 .my-photo {
   width: 370px;
   margin: 0 0 0 -40px;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .main-container-heading {
